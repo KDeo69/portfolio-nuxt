@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #7791ca;
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.textbold{
+    font-weight: bold;
+}
+
+.navbarstyle{
+    background: #5d729e;
+}
+
+/*about*/
+
+.container{
+    
+    display: flexbox;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg{
+    width: 3fr;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #2c65b4;
+    width: 70%;
+    border-radius: 40px;
+}
+
+
+/*grid style*/
+
+.box {
+    display: flex;            
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s ease;
+}
+
+.certgrid{
+    justify-content: center;
+    display: grid;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 200px;
+    gap: 10em;
+    grid-template-areas: 
+    "box-1 box-2"
+    "box-3 box-4"
+}
+
+.certgrid img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

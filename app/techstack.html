@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kristoffer | Web Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="navbar navbarstyle bg-base-100 shadow-sm">
+          <div class="dropdown lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
+            </div>
+            <!-- DROPDOWN MENU -->
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a href="about.html" onclick="document.activeElement.blur()">About</a></li>
+              <li><a href="certifications.html" onclick="document.activeElement.blur()">Certifications</a></li>
+              <li><a href="techstack.html" onclick="document.activeElement.blur()">Techstack</a></li>
+            </ul>
+          </div>
+          <!-- HOME BUTTON -->
+          <div class="flex-1">
+            <a href="index.html" class="text-xl"><strong>TECHSTACK | Kristoffer Deocareza</strong></a>
+          </div>
+          <!-- NAV BUTTONS -->
+          <div class="flex-none hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a href="about.html"><strong>About</strong></a></li>
+              <li><a href="certifications.html"><strong>Certifications</strong></a></li>
+              <li><a href="techstack.html"><strong>Techstack</strong></a></li>
+            </ul>
+          </div>
+        </div>
+  </div>
